@@ -1,0 +1,208 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h1, h3, p
+{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  display: block;
+}
+
+div
+{
+  display: block;
+}
+
+header, footer
+{
+  display: inline-block;
+}
+
+.header
+{
+  /*font-family: 'Roboto Slab', serif;*/
+  padding: 50px 0px 0px 0px;
+  margin-bottom: 10em;
+  width: 100%;
+  /*background-image: url("Images/banner-background.jpg");*/
+  background-color: /*#bcbcbc*/ /*#659388*/ /*#c9d5d5*/ /*#63895d*/ /*#e1b54c*/;
+  background-color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  color: black;
+}
+
+.headerName
+{
+  font-size: 82px;
+  color: #f2f2f2;
+}
+
+.headerTitle
+{
+  font-size: 48px;
+  color: #f2f2f2;
+}
+
+.headerImageSection
+{
+  text-align: center;
+  height: 1px;
+  background-color: #111111;
+  margin-top: 12em;
+}
+
+.headerImage
+{
+  width: 300px;
+  height: 300px;
+  margin-top: -150px;
+  border-radius: 0%;
+  border: 1px #111111 solid;
+}
+
+.main
+{
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
+.mainName
+{
+  /*font-family: 'Roboto Slab', serif;*/
+  display: inline-block;
+  border-bottom: 1px solid #111111;
+}
+
+.aboutMe
+{
+  margin: 15px 15px 15px 15px;
+  font-size: 18px;
+}
+
+.aboutMeContent
+{
+  line-height: 1.25;
+  display: flex;
+  width: 100%;
+}
+
+.colum
+{
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+.columSpan
+{
+  float: left;
+  height: 100%;
+  background-color: #111111;
+  width: 2px;
+  margin: 0 10px;
+  display: block;
+}
+
+.CvButton
+{
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 40px 10px 0px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  float: center;
+  font-size: 16px;
+}
+
+.footer
+{
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.90);
+  border-top: 1px solid black;
+  display: block;
+}
+
+.footerText
+{
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 700px)
+{
+
+  .headerName
+  {
+    font-size: 48px;
+  }
+
+  .headerTitle
+  {
+    font-size: 32px;
+  }
+
+  .headerImage
+  {
+    width: 250px;
+    height: 250px;
+  }
+
+  .mainName
+  {
+    font-size: 24px;
+  }
+
+  .colum
+  {
+    float: none;
+  }
+
+  .aboutMe
+  {
+    margin: 10px;
+    font-size: 16px;
+  }
+
+  .aboutMeContent
+  {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .aboutMeContent p
+  {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #111111;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+  }
+
+  .columSpan
+  {
+    display: none;
+  }
+
+  #lastColum
+  {
+    border: none;
+    margin-bottom: 0;
+  }
+
+}
+
+/* Made by Dave Bakker */
