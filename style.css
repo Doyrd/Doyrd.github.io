@@ -19,7 +19,7 @@ div
   display: block;
 }
 
-header, footer
+header, footer, article
 {
   display: inline-block;
 }
@@ -110,20 +110,60 @@ header, footer
   display: block;
 }
 
-.CvButton
+.cvButtons
+{
+  text-align: center;
+}
+
+.cvButton
 {
   text-decoration: none;
-  color: rgba(0, 0, 0, 1);
-  background-color: rgba(255, 255, 255, 1);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.90);
   border: 1px solid black;
   padding: 20px;
   text-align: center;
   display: inline-block;
   margin: 40px 10px 40px 10px;
   cursor: pointer;
-  border-radius: 4px;
   float: center;
-  font-size: 16px;
+  font-size: 18px;
+}
+
+.projects
+{
+  text-align: left;
+  margin: 25px 0px 25px 0px;
+}
+
+.article
+{
+  margin: 20px;
+  border: 1px solid black;
+  float: center;
+  width: 350px;
+}
+
+.article .gallery .preview
+{
+    width: 100%;
+    height: auto;
+}
+
+.article .gallery a
+{
+  background-color: black;
+  border-top: 1px black solid;
+}
+
+.description
+{
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.90);
+    /*border-top: 1px black solid*/
 }
 
 .footer
@@ -172,7 +212,7 @@ header, footer
 
   .aboutMe
   {
-    margin: 10px;
+    margin: 20px 10px 10px 10px;
     font-size: 16px;
   }
 
@@ -188,8 +228,8 @@ header, footer
     width: 100%;
     text-align: left;
     border-bottom: 1px solid #111111;
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
   }
 
   .columSpan
@@ -201,6 +241,28 @@ header, footer
   {
     border: none;
     margin-bottom: 0;
+  }
+
+  .cvButton
+  {
+    font-size: 16px;
+    margin: 20px 5px 20px 5px;
+  }
+
+  .article
+  {
+    width: 250px;
+  }
+
+  .description
+  {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #firstArticle
+  {
+    margin-top: 5px;
   }
 
 }
