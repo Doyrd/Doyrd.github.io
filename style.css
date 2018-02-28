@@ -1,0 +1,270 @@
+body
+{
+  font-family: 'Raleway', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h1, h3, p
+{
+  padding: 0;
+  margin: 0;
+  font-weight: normal;
+  display: block;
+}
+
+div
+{
+  display: block;
+}
+
+header, footer, article
+{
+  display: inline-block;
+}
+
+.header
+{
+  /*font-family: 'Roboto Slab', serif;*/
+  padding: 50px 0px 0px 0px;
+  margin-bottom: 10em;
+  width: 100%;
+  /*background-image: url("Images/banner-background.jpg");*/
+  background-color: /*#bcbcbc*/ /*#659388*/ /*#c9d5d5*/ /*#63895d*/ /*#e1b54c*/;
+  background-color: rgba(0, 0, 0, 0.90);
+  text-align: center;
+  color: black;
+}
+
+.headerName
+{
+  font-size: 82px;
+  color: #f2f2f2;
+}
+
+.headerTitle
+{
+  font-size: 48px;
+  color: #f2f2f2;
+}
+
+.headerImageSection
+{
+  text-align: center;
+  height: 1px;
+  background-color: #111111;
+  margin-top: 12em;
+}
+
+.headerImage
+{
+  width: 300px;
+  height: 300px;
+  margin-top: -150px;
+  border-radius: 0%;
+  border: 1px #111111 solid;
+}
+
+.main
+{
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
+.mainName
+{
+  /*font-family: 'Roboto Slab', serif;*/
+  display: inline-block;
+  border-bottom: 1px solid #111111;
+}
+
+.aboutMe
+{
+  margin: 15px 15px 15px 15px;
+  font-size: 18px;
+}
+
+.aboutMeContent
+{
+  line-height: 1.25;
+  display: flex;
+  width: 100%;
+}
+
+.colum
+{
+  float: left;
+  height: 100%;
+  width: 100%;
+}
+
+.columSpan
+{
+  float: left;
+  height: 100%;
+  background-color: #111111;
+  width: 2px;
+  margin: 0 10px;
+  display: block;
+}
+
+.cvButtons
+{
+  text-align: center;
+}
+
+.cvButton
+{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.90);
+  border: 1px solid black;
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  margin: 40px 10px 40px 10px;
+  cursor: pointer;
+  float: center;
+  font-size: 18px;
+}
+
+.projects
+{
+  text-align: left;
+  margin: 25px 0px 25px 0px;
+}
+
+.article
+{
+  margin: 20px;
+  border: 1px solid black;
+  float: center;
+  width: 350px;
+}
+
+.article .gallery .preview
+{
+    width: 100%;
+    height: auto;
+}
+
+.article .gallery a
+{
+  background-color: black;
+  border-top: 1px black solid;
+}
+
+.description
+{
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.90);
+    /*border-top: 1px black solid*/
+}
+
+.footer
+{
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: rgba(0, 0, 0, 0.90);
+  border-top: 1px solid black;
+  display: block;
+}
+
+.footerText
+{
+  color: #f2f2f2;
+}
+
+@media screen and (max-width: 700px)
+{
+
+  .headerName
+  {
+    font-size: 48px;
+  }
+
+  .headerTitle
+  {
+    font-size: 32px;
+  }
+
+  .headerImage
+  {
+    width: 250px;
+    height: 250px;
+  }
+
+  .mainName
+  {
+    font-size: 24px;
+  }
+
+  .colum
+  {
+    float: none;
+  }
+
+  .aboutMe
+  {
+    margin: 20px 10px 10px 10px;
+    font-size: 16px;
+  }
+
+  .aboutMeContent
+  {
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+
+  .aboutMeContent p
+  {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid #111111;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+  }
+
+  .columSpan
+  {
+    display: none;
+  }
+
+  #lastColum
+  {
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .cvButton
+  {
+    font-size: 16px;
+    margin: 20px 5px 20px 5px;
+  }
+
+  .article
+  {
+    width: 250px;
+  }
+
+  .description
+  {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  #firstArticle
+  {
+    margin-top: 5px;
+  }
+
+}
+
+/* Made by Dave Bakker */
