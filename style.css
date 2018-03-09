@@ -64,6 +64,7 @@ header, footer, article
   margin-top: -150px;
   border-radius: 0%;
   border: 1px #111111 solid;
+
 }
 
 .main
@@ -146,24 +147,24 @@ header, footer, article
 
 .article .gallery .preview
 {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .article .gallery a
 {
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.90);
   border-top: 1px black solid;
 }
 
 .description
 {
-    padding: 15px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.90);
-    /*border-top: 1px black solid*/
+  padding: 15px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.90);
+  /*border-top: 1px black solid*/
 }
 
 .footer
