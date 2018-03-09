@@ -154,7 +154,7 @@ header, footer, article
 .article .gallery a
 {
   background-color: rgba(0, 0, 0, 0.90);
-  border-top: 1px black solid;
+  border-top: 1px solid black;
 }
 
 .description
