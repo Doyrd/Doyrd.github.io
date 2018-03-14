@@ -30,7 +30,7 @@ header, footer, article
   padding: 50px 0px 0px 0px;
   margin-bottom: 10em;
   width: 100%;
-  /*background-image: url("Images/banner-background.jpg");*/
+  background-image: url("Images/banner-background-image-edited-1.jpg");
   background-color: /*#bcbcbc*/ /*#659388*/ /*#c9d5d5*/ /*#63895d*/ /*#e1b54c*/;
   background-color: rgba(0, 0, 0, 0.90);
   text-align: center;
@@ -77,8 +77,17 @@ header, footer, article
 .mainName
 {
   /*font-family: 'Roboto Slab', serif;*/
-  display: inline-block;
-  border-bottom: 1px solid #111111;
+  /*display: inline-block;*/
+  margin-bottom: 10px;
+  /*border-bottom: 1px solid #111111;*/
+  text-align: center;
+  border-collapse: separate;
+  border-spacing: 50px 50px;
+}
+
+#marginHeadline
+{
+  margin-top: 15px;
 }
 
 .aboutMe
@@ -131,10 +140,10 @@ header, footer, article
   font-size: 18px;
 }
 
-.projects
+.divSection
 {
-  text-align: left;
-  margin: 25px 0px 25px 0px;
+  text-align: center;
+  margin: 5px 0px 25px 0px;
 }
 
 .article
@@ -143,6 +152,12 @@ header, footer, article
   border: 1px solid black;
   float: center;
   width: 350px;
+}
+
+.icons
+{
+  margin: 20px;
+  float: center;
 }
 
 .article .gallery .preview
@@ -185,6 +200,11 @@ header, footer, article
 @media screen and (max-width: 700px)
 {
 
+  .header
+  {
+    background-image: url("Images/banner-background-image-edited-1.jpg");
+  }
+
   .headerName
   {
     font-size: 48px;
@@ -209,6 +229,11 @@ header, footer, article
   .colum
   {
     float: none;
+  }
+
+  #marginHeadline
+  {
+    margin-bottom: 10px;
   }
 
   .aboutMe
@@ -248,6 +273,11 @@ header, footer, article
   {
     font-size: 16px;
     margin: 20px 5px 20px 5px;
+  }
+
+  .divSection
+  {
+    margin: 15px 0px 15px 0px;
   }
 
   .article
