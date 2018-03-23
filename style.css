@@ -157,7 +157,7 @@ header, footer, article
 .divSection
 {
   text-align: center;
-  margin: 5px 0px 25px 0px;
+  margin: 5px 0px 15px 0px;
 }
 
 .article
@@ -196,6 +196,24 @@ header, footer, article
   /*border-top: 1px black solid*/
 }
 
+.contactInfo
+{
+  text-align: center;
+  margin: 0px 50px 50px 50px;
+}
+
+.contactText
+{
+  font-size: 18px;
+}
+
+#contactLink
+{
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+}
+
 .footer
 {
   text-align: center;
@@ -216,7 +234,8 @@ header, footer, article
 
   .header
   {
-    background-image: url("Images/banner-background-image-edited-1.jpg");
+    /*background-image: url("Images/banner-background-image-edited-1.jpg");*/
+    background-color: rgba(0, 0, 0, 0.90);
     margin-bottom: 1em;
   }
 
@@ -239,6 +258,7 @@ header, footer, article
   .mainName
   {
     font-size: 24px;
+    margin-bottom: 0px;
   }
 
   .colum
@@ -302,7 +322,7 @@ header, footer, article
 
   .divSection
   {
-    margin: 15px 0px 15px 0px;
+    margin: 0px 0px 15px 0px;
   }
 
   .article
@@ -330,6 +350,16 @@ header, footer, article
   .icons
   {
     margin: 5px;
+  }
+
+  .contactInfo
+  {
+    margin: 0px 0px 30px 0px;
+  }
+
+  #buttonsSocialMedia
+  {
+    margin-top: 25px;
   }
 
 }
