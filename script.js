@@ -1,6 +1,14 @@
 /* javascript file start test */
 console.log("Javascript connected.");
 
+/* begin alert */
+function warning()
+{
+  alert("Thank you for visiting my online portfolio!\n\nThis website is under construction so be aware of glitches and bugs.");
+}
+
+console.log("Begin alert working.")
+
 /* dropdown menu */
 var dropdowns = document.getElementsByClassName("dropdown-content");
 var i;
