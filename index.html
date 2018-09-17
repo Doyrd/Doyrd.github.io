@@ -1,0 +1,155 @@
+<!-- doctype -->
+<!DOCTYPE html>
+
+ <!-- html -->
+ <html lang="en" dir="ltr">
+
+   <!-- head -->
+   <head>
+
+     <!-- meta -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta name="author" content="Dave Bakker">
+     <meta name="keywords" content="HTML5, CSS3, Responsive, Dave, Bakker, Portfolio, Game developer, Games, Skills">
+     <meta name="description" content="This website is my portfolio, respresenting me, my skills and my work.">
+
+     <!-- link -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="icon" href="image/favicon/favicon.png">
+     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+     <!-- title -->
+     <title>
+       Dave Bakker
+     </title>
+
+   </head>
+
+   <!-- body -->
+   <body>
+
+     <!-- navigation bar -->
+     <nav id="navigation-id" class="nav">
+
+       <div class="logo" id>
+         <a id="logo-id" href="#banner-section"> Dave Bakker </a>
+       </div>
+
+       <div class="open-links">
+         <ul>
+           <li><a class="link" href="#about-section"> about me </a></li>
+           <li><a class="link" href="#work-section"> work </a></li>
+           <li><a class="link" href="#contact-section"> contact </a></li>
+         </ul>
+       </div>
+
+       <div class="dropdown">
+         <button onclick="dropdown()" class="dropdown-button"> ☰ </button>
+       </div>
+
+     </nav>
+
+     <div id="dropdown-id" class="dropdown-content">
+       <a href="#about-section"> about me </a>
+       <a href="#work-section"> work </a>
+       <a href="#contact-section"> contact </a>
+     </div>
+
+     <!-- banner -->
+     <img id="banner-section" class="banner-image" src="image/banner/banner-2.jpg">
+
+     <div class="banner">
+       <p> "Programming is the inspiration </br> for endless possibilities." - Dave Bakker</p>
+     </div>
+
+     <!-- about me -->
+     <div id="about-section" class="about">
+
+       <div class="about-intro">
+         <a>
+           Hey, I am Dave
+         </a>
+       </div>
+
+       <div class="about-information">
+         <a>
+           My name is Dave Bakker, I'm 18 years old and I live in the Netherlands, Alkmaar.
+         </br>
+           As a gamedeveloper I'm seeking for new opportunities.
+         </a>
+       </div>
+
+       <div class="cv-buttons">
+         <a class="cv-button" href="cv/english/curriculum-vitae.pdf" target="_blank">
+           Curriculum vitae
+         </a>
+       </div>
+
+     </div>
+
+     <!-- work -->
+     <div id="work-section" class="work">
+
+       <div class="work-heading">
+         <a class="work-heading-text">
+           Portfolio
+         </a>
+       </div>
+
+       <div class="portfolio-preview">
+         <!--<img class="preview-item" src="image/placeholder/item.jpg" alt="project-one">
+         <img class="preview-item" src="image/placeholder/item.jpg" alt="project-two">
+         <img class="preview-item" src="image/placeholder/item.jpg" alt="project-three">
+         <img class="preview-item" src="image/placeholder/item.jpg" alt="project-four">
+         <img class="preview-item" src="image/placeholder/item.jpg" alt="project-five"> -->
+         <a href="page/work/cuphead/index.html"><img id="last-preview-item" class="preview-item"  src="image/preview/cuphead.jpg" alt="project-six"></a>
+       </div>
+
+     </div>
+
+
+     <!-- contact -->
+     <div id="contact-section" class="contact">
+
+       <div class="contact-heading">
+         <a class="contact-heading-text"> Make me your new connection </a>
+       </div>
+
+       <div class="contact-social-media">
+         <a href="https://twitter.com/Doyrd" target="_blank"><img class="contact-icon" src="image/icon/new/set-three/twitter.png" alt="social-media-one"></a>
+         <a href="https://www.linkedin.com/in/dave-bakker-the-one-and-only/" target="_blank"><img class="contact-icon" src="image/icon/new/set-three/linkedin.png" alt="social-media-two"></a>
+         <a href="https://www.instagram.com/daveb.insta/" target="_blank"><img class="contact-icon" src="image/icon/new/set-three/instagram.png" alt="social-media-three"></a>
+       </div>
+
+       <div class="contact-information">
+         <a id="contact-long" class="contact-information-text">
+           Or if you prefer sending me an email:
+         </br>
+          davebakkerdev@gmail.com
+         </a>
+
+         <a id="contact-short" class="contact-information-text">
+           Or email me:
+         </br>
+          davebakkerdev@gmail.com
+         </a>
+       </div>
+
+     </div>
+
+
+     <!-- footer -->
+     <div class="footer">
+       <a class="footer-text">
+         Copyright © 2018 Dave Bakker. All rights reserved.
+       </a>
+     </div>
+
+
+     <!-- script -->
+     <script src="script.js"></script>
+
+   </body>
+
+ </html>
