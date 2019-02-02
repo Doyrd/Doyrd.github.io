@@ -33,7 +33,7 @@ body
 {
   color: rgba(255, 255, 255, 1);
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
   transition: 500ms ease;
 }
 
@@ -200,7 +200,7 @@ body
 .portfolio-preview
 {
   align: center;
-  padding: 0px 250px 125px 250px;
+  padding: 0px 200px 125px 200px;
 }
 
 .preview-item

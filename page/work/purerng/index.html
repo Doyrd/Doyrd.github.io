@@ -1,0 +1,186 @@
+<!-- doctype -->
+<!DOCTYPE html>
+
+ <!-- html -->
+ <html lang="en" dir="ltr">
+
+   <!-- head -->
+   <head>
+
+     <!-- meta -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+     <meta name="author" content="Dave Bakker">
+     <meta name="keywords" content="HTML5, CSS3, Responsive, Dave, Bakker, Portfolio, Game developer, Games, Skills">
+     <meta name="description" content="This part of my portfolio is where I showcase a project.">
+
+     <!-- link -->
+     <link rel="stylesheet" type="text/css" href="style.css">
+     <link rel="icon" href="../../../image/favicon/favicon.png">
+     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+
+     <!-- title -->
+     <title>
+       Dave Bakker
+     </title>
+
+   </head>
+
+   <!-- body -->
+   <body>
+
+     <!-- navigation bar -->
+     <nav id="navigation-id" class="nav">
+
+       <div class="logo" id>
+         <a id="logo-id" href="../../../index.html"> Dave Bakker </a>
+       </div>
+
+       <div class="open-links">
+         <ul>
+           <li><a class="link" href="#about-section"> about game </a></li>
+           <li><a class="link" href="#link-section"> gameplay </a></li>
+           <li><a class="link" href="#portfolio-preview-section"> other </a></li>
+           <li><a class="link" href="#contact-section"> contact </a></li>
+         </ul>
+       </div>
+
+       <div class="dropdown">
+         <button onclick="dropdown()" class="dropdown-button"> ☰ </button>
+       </div>
+
+     </nav>
+
+     <div id="dropdown-id" class="dropdown-content">
+       <a href="#about-section"> about me </a>
+       <a class="link" href="#link-section"> gameplay </a>
+       <a class="link" href="#portfolio-preview-section"> other </a>
+       <a href="#contact-section"> contact </a>
+     </div>
+
+     <!-- about -->
+     <div id="about-section" class="about">
+
+       <div class="about-intro">
+         <a>
+           Pure RNG
+         </a>
+       </div>
+
+       <div class="about-information">
+         <a>
+           This personal project is an endless runner. The game is inspired by my early love for simple games
+         </br>
+           and endless runners. During this project I learned to work with or create the following things:
+         </br>
+           base mechanics of an endless runner. Experimenting and learning to work with object pooling,
+         </br>
+           different jump mechanics, collectables, in-game menu's and polishing.
+         </a>
+       </div>
+
+     </div>
+
+     <!-- work -->
+     <div class="work">
+
+       <div class="preview-heading">
+         <a class="preview-heading-text">
+           Preview
+         </a>
+       </div>
+
+       <div class="gameplay-preview">
+         <video class="video" autoplay loop muted id="preview-section">
+           <source src="../../../video/purerng.mp4" type="video/mp4">
+         </video>
+       </div>
+
+       <div class="gameplay">
+         <div class="game-heading">
+           <a class="game-heading-text">
+             Gameplay
+           </a>
+         </div>
+
+         <div class="game-information" id="informationDesktop">
+           <a class="game-information-text" id="link-section">
+             Play the game yourself or check out the code:
+           </br>
+           </a>
+           <a class="game-information-link" href="http://22474.hosts.ma-cloud.nl/Unity/PureRNG/">
+             Demo
+           </a>
+           <a class="game-information-text">
+             or
+           </a>
+           <a class="game-information-link" href="https://github.com/Doyrd/Project-files/tree/master/Game-project/PureRNG/Scripts">
+             GitHub
+           </a>
+         </div>
+       </div>
+
+       <div class="game-information" id="informationMobile">
+         <a class="game-information-text" id="link-section">
+           Check out my code or play the game on a desktop device
+         </br>
+         </br>
+         </a>
+         <a class="game-information-link" href="https://github.com/Doyrd/Project-files/tree/master/Game-project/PureRNG/Scripts">
+           GitHub
+         </a>
+       </div>
+
+       <div class="portfolio-preview" id="portfolio-preview-section">
+         <a href="../../../page/work/virtual/index.html"><img class="preview-item" src="../../../image/preview/vr/vr.jpg" alt="project-one"></a>
+         <a href="../../../page/work/augmented/index.html"><img class="preview-item" src="../../../image/preview/ar/ar.jpg" alt="project-two"></a>
+         <a href="../../../page/work/cuphead/index.html"><img class="preview-item" src="../../../image/preview/cuphead/cuphead.jpg" alt="project-three"></a>
+       </div>
+
+     </div>
+
+     <!-- contact -->
+     <div id="contact-section" class="contact">
+
+       <div class="contact-heading">
+         <a class="contact-heading-text"> Make me your new connection </a>
+       </div>
+
+       <div class="contact-social-media">
+         <a href="https://www.facebook.com/dave.bakker.35325" target="_blank"><img class="contact-icon" src="../../../image/icon/new/set-three/facebook.png" alt="social-media-one"></a>
+         <a href="https://www.linkedin.com/in/dave-bakker-the-one-and-only/" target="_blank"><img class="contact-icon" src="../../../image/icon/new/set-three/linkedin.png" alt="social-media-two"></a>
+         <a href="https://www.instagram.com/daveb.insta/" target="_blank"><img class="contact-icon" src="../../../image/icon/new/set-three/instagram.png" alt="social-media-three"></a>
+       </div>
+
+       <div class="contact-information">
+         <a id="contact-long" class="contact-information-text">
+           Or if you prefer sending me an email:
+         </br>
+          davebakkerdev@gmail.com
+         </a>
+
+         <a id="contact-short" class="contact-information-text">
+           Or email me:
+         </br>
+          davebakkerdev@gmail.com
+         </a>
+       </div>
+
+     </div>
+
+
+     <!-- footer -->
+     <div class="footer">
+       <a class="footer-text">
+         Copyright © 2018 Dave Bakker. All rights reserved.
+       </a>
+     </div>
+
+
+     <!-- script -->
+     <script src="script.js"></script>
+
+   </body>
+
+ </html>
